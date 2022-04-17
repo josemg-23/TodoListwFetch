@@ -21,19 +21,18 @@ const Home = () => {
 	}
 	return (
 		<div>
-			<div className="card text-white bg-info mb-3">
-				<div className="card-header">Todo List</div>
+			<div className="card mb-3">
+				<div className="card-header">ToDos</div>
 				<div className="card-body">
 					<h5 className="card-title">
 						<form onSubmit={addItem}>
 							<div className="form-group">
-								<label htmlFor="newItem">Nueva tarea</label>
 								<input
 									required
 									id="newItem"
 									type="text"
 									className="form-control"
-									placeholder="Ingrese una nueva tarea"
+									placeholder="Enter new task"
 									name="newItem"></input>
 							</div>
 							{/* <button className="btn btn-primary" type="submit">
@@ -44,11 +43,6 @@ const Home = () => {
 					<div className="card-text">
 						<List ref={listRef} />
 					</div>
-				</div>
-				<div className="card-footer text-muted">
-					Made by{" "}
-					<a href="http://www.4geeksacademy.com">4Geeks Academy</a>,
-					with love!
 				</div>
 			</div>
 		</div>

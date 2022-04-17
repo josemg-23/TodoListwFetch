@@ -3,9 +3,9 @@ import ListItem from "./listItem.jsx";
 
 const List = forwardRef((props, ref) => {
 	const [items, setItems] = useState([
-		"Lavar la ropa",
-		"Fregar los platos",
-		"Dar clases",
+		"Code React",
+		"Code Front End",
+		"SQL and Python",
 	]);
 
 	useImperativeHandle(ref, () => ({
