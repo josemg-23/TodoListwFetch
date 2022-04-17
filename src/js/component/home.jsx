@@ -35,9 +35,11 @@ const Home = () => {
 									placeholder="Enter new task"
 									name="newItem"></input>
 							</div>
-							{/* <button className="btn btn-primary" type="submit">
-					Agregar ToDo
-				</button> */}
+							<button
+								className="btn btn-primary align"
+								type="submit">
+								Add
+							</button>
 						</form>
 					</h5>
 					<div className="card-text">
