@@ -36,9 +36,9 @@ const Home = () => {
 									name="newItem"></input>
 							</div>
 							<button
-								className="btn btn-primary align"
+								className="btn btn-primary align col-lg-12"
 								type="submit">
-								Add
+								Add task
 							</button>
 						</form>
 					</h5>
